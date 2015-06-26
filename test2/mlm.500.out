@@ -1,0 +1,461 @@
+Malamute service/0.0.1
+Copyright (c) 2014 the Contributors
+This Software is provided under the MPLv2 License on an "as is" basis,
+without warranty of any kind, either expressed, implied, or statutory.
+
+not calling zsys_set_
+I: 15-06-26 08:10:35 starting Malamute using config in '/etc/malamute/malamute.cfg'
+I: 15-06-26 08:10:35 zauth: API command=PLAIN
+I: 15-06-26 08:10:35 zauth: could not load file=passwords.cfg
+N: 15-06-26 08:10:35 binding Malamute service to 'ipc://@/malamute'
+N: 15-06-26 08:10:35 server is using NULL security
+D: 15-06-26 08:10:37    983:Malamute                        : start:
+D: 15-06-26 08:10:37    983:Malamute                        :     CONNECTION_OPEN
+D: 15-06-26 08:10:37    983:Malamute                        :         $ register new client
+D: 15-06-26 08:10:37    983:Malamute                        :         $ send OK
+D: 15-06-26 08:10:37    983:Malamute                        :         $ check for mailbox messages
+D: 15-06-26 08:10:37    983:Malamute                        :         > connected
+D: 15-06-26 08:10:37    983:Malamute                        : connected:
+D: 15-06-26 08:10:37    983:Malamute                        :     STREAM_READ
+D: 15-06-26 08:10:37    983:Malamute                        :         $ store stream reader
+D: 15-06-26 08:10:37    983:Malamute                        :         $ send OK
+D: 15-06-26 08:10:37    983:Malamute                        :         > connected
+D: 15-06-26 08:10:38    983:Malamute                        : connected:
+D: 15-06-26 08:10:38    983:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:38    983:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:38    983:Malamute                        :         > connected
+D: 15-06-26 08:10:39    983:Malamute                        : connected:
+D: 15-06-26 08:10:39    983:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:39    983:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:39    983:Malamute                        :         > connected
+D: 15-06-26 08:10:40    983:Malamute                        : connected:
+D: 15-06-26 08:10:40    983:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:40    983:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:40    983:Malamute                        :         > connected
+D: 15-06-26 08:10:41    983:Malamute                        : connected:
+D: 15-06-26 08:10:41    983:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:41    983:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:41    983:Malamute                        :         > connected
+D: 15-06-26 08:10:41    984:Malamute                        : start:
+D: 15-06-26 08:10:41    984:Malamute                        :     CONNECTION_OPEN
+D: 15-06-26 08:10:41    984:Malamute                        :         $ register new client
+D: 15-06-26 08:10:41    984:Malamute                        :         $ send OK
+D: 15-06-26 08:10:41    984:Malamute                        :         $ check for mailbox messages
+D: 15-06-26 08:10:41    984:Malamute                        :         > connected
+D: 15-06-26 08:10:41    984:Malamute                        : connected:
+D: 15-06-26 08:10:41    984:Malamute                        :     STREAM_WRITE
+D: 15-06-26 08:10:41    984:Malamute                        :         $ store stream writer
+D: 15-06-26 08:10:41    984:Malamute                        :         $ send OK
+D: 15-06-26 08:10:41    984:Malamute                        :         > connected
+D: 15-06-26 08:10:41    984:Malamute                        : connected:
+D: 15-06-26 08:10:41    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:41    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:41    984:Malamute                        :         > connected
+D: 15-06-26 08:10:41    983:Malamute                        : connected:
+D: 15-06-26 08:10:41    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:41    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:41    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:41    983:Malamute                        :         > connected
+D: 15-06-26 08:10:42    984:Malamute                        : connected:
+D: 15-06-26 08:10:42    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:42    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:42    984:Malamute                        :         > connected
+D: 15-06-26 08:10:42    983:Malamute                        : connected:
+D: 15-06-26 08:10:42    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:42    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:42    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:42    983:Malamute                        :         > connected
+D: 15-06-26 08:10:42    984:Malamute                        : connected:
+D: 15-06-26 08:10:42    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:42    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:42    984:Malamute                        :         > connected
+D: 15-06-26 08:10:42    984:Malamute                        : connected:
+D: 15-06-26 08:10:42    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:42    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:42    984:Malamute                        :         > connected
+D: 15-06-26 08:10:42    983:Malamute                        : connected:
+D: 15-06-26 08:10:42    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:42    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:42    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:42    983:Malamute                        :         > connected
+D: 15-06-26 08:10:43    984:Malamute                        : connected:
+D: 15-06-26 08:10:43    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:43    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:43    984:Malamute                        :         > connected
+D: 15-06-26 08:10:43    983:Malamute                        : connected:
+D: 15-06-26 08:10:43    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:43    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:43    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:43    983:Malamute                        :         > connected
+D: 15-06-26 08:10:43    984:Malamute                        : connected:
+D: 15-06-26 08:10:43    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:43    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:43    984:Malamute                        :         > connected
+D: 15-06-26 08:10:43    983:Malamute                        : connected:
+D: 15-06-26 08:10:43    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:43    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:43    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:43    983:Malamute                        :         > connected
+D: 15-06-26 08:10:43    984:Malamute                        : connected:
+D: 15-06-26 08:10:43    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:43    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:43    984:Malamute                        :         > connected
+D: 15-06-26 08:10:44    984:Malamute                        : connected:
+D: 15-06-26 08:10:44    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:44    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:44    984:Malamute                        :         > connected
+D: 15-06-26 08:10:44    983:Malamute                        : connected:
+D: 15-06-26 08:10:44    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:44    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:44    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:44    983:Malamute                        :         > connected
+D: 15-06-26 08:10:44    984:Malamute                        : connected:
+D: 15-06-26 08:10:44    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:44    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:44    984:Malamute                        :         > connected
+D: 15-06-26 08:10:44    983:Malamute                        : connected:
+D: 15-06-26 08:10:44    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:44    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:44    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:44    983:Malamute                        :         > connected
+D: 15-06-26 08:10:44    984:Malamute                        : connected:
+D: 15-06-26 08:10:44    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:44    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:44    984:Malamute                        :         > connected
+D: 15-06-26 08:10:45    984:Malamute                        : connected:
+D: 15-06-26 08:10:45    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:45    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:45    984:Malamute                        :         > connected
+D: 15-06-26 08:10:45    983:Malamute                        : connected:
+D: 15-06-26 08:10:45    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:45    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:45    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:45    983:Malamute                        :         > connected
+D: 15-06-26 08:10:45    984:Malamute                        : connected:
+D: 15-06-26 08:10:45    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:45    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:45    984:Malamute                        :         > connected
+D: 15-06-26 08:10:45    983:Malamute                        : connected:
+D: 15-06-26 08:10:45    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:45    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:45    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:45    983:Malamute                        :         > connected
+D: 15-06-26 08:10:45    984:Malamute                        : connected:
+D: 15-06-26 08:10:45    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:45    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:45    984:Malamute                        :         > connected
+D: 15-06-26 08:10:46    984:Malamute                        : connected:
+D: 15-06-26 08:10:46    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:46    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:46    984:Malamute                        :         > connected
+D: 15-06-26 08:10:46    983:Malamute                        : connected:
+D: 15-06-26 08:10:46    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:46    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:46    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:46    983:Malamute                        :         > connected
+D: 15-06-26 08:10:46    984:Malamute                        : connected:
+D: 15-06-26 08:10:46    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:46    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:46    984:Malamute                        :         > connected
+D: 15-06-26 08:10:46    983:Malamute                        : connected:
+D: 15-06-26 08:10:46    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:46    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:46    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:46    983:Malamute                        :         > connected
+D: 15-06-26 08:10:46    984:Malamute                        : connected:
+D: 15-06-26 08:10:46    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:46    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:46    984:Malamute                        :         > connected
+D: 15-06-26 08:10:47    984:Malamute                        : connected:
+D: 15-06-26 08:10:47    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:47    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:47    984:Malamute                        :         > connected
+D: 15-06-26 08:10:47    983:Malamute                        : connected:
+D: 15-06-26 08:10:47    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:47    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:47    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:47    983:Malamute                        :         > connected
+D: 15-06-26 08:10:47    984:Malamute                        : connected:
+D: 15-06-26 08:10:47    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:47    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:47    984:Malamute                        :         > connected
+D: 15-06-26 08:10:47    983:Malamute                        : connected:
+D: 15-06-26 08:10:47    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:47    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:47    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:47    983:Malamute                        :         > connected
+D: 15-06-26 08:10:47    984:Malamute                        : connected:
+D: 15-06-26 08:10:47    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:47    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:47    984:Malamute                        :         > connected
+D: 15-06-26 08:10:48    984:Malamute                        : connected:
+D: 15-06-26 08:10:48    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:48    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:48    984:Malamute                        :         > connected
+D: 15-06-26 08:10:48    983:Malamute                        : connected:
+D: 15-06-26 08:10:48    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:48    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:48    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:48    983:Malamute                        :         > connected
+D: 15-06-26 08:10:48    984:Malamute                        : connected:
+D: 15-06-26 08:10:48    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:48    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:48    984:Malamute                        :         > connected
+D: 15-06-26 08:10:48    983:Malamute                        : connected:
+D: 15-06-26 08:10:48    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:48    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:48    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:48    983:Malamute                        :         > connected
+D: 15-06-26 08:10:48    984:Malamute                        : connected:
+D: 15-06-26 08:10:48    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:48    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:48    984:Malamute                        :         > connected
+D: 15-06-26 08:10:49    984:Malamute                        : connected:
+D: 15-06-26 08:10:49    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:49    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:49    984:Malamute                        :         > connected
+D: 15-06-26 08:10:49    983:Malamute                        : connected:
+D: 15-06-26 08:10:49    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:49    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:49    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:49    983:Malamute                        :         > connected
+D: 15-06-26 08:10:49    984:Malamute                        : connected:
+D: 15-06-26 08:10:49    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:49    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:49    984:Malamute                        :         > connected
+D: 15-06-26 08:10:49    983:Malamute                        : connected:
+D: 15-06-26 08:10:49    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:49    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:49    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:49    983:Malamute                        :         > connected
+D: 15-06-26 08:10:49    984:Malamute                        : connected:
+D: 15-06-26 08:10:49    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:49    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:49    984:Malamute                        :         > connected
+D: 15-06-26 08:10:50    984:Malamute                        : connected:
+D: 15-06-26 08:10:50    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:50    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:50    984:Malamute                        :         > connected
+D: 15-06-26 08:10:50    983:Malamute                        : connected:
+D: 15-06-26 08:10:50    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:50    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:50    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:50    983:Malamute                        :         > connected
+D: 15-06-26 08:10:50    984:Malamute                        : connected:
+D: 15-06-26 08:10:50    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:50    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:50    984:Malamute                        :         > connected
+D: 15-06-26 08:10:50    983:Malamute                        : connected:
+D: 15-06-26 08:10:50    983:Malamute                        :     stream_message
+D: 15-06-26 08:10:50    983:Malamute                        :         $ get message to deliver
+D: 15-06-26 08:10:50    983:Malamute                        :         $ send STREAM_DELIVER
+D: 15-06-26 08:10:50    983:Malamute                        :         > connected
+D: 15-06-26 08:10:50    984:Malamute                        : connected:
+D: 15-06-26 08:10:50    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:50    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:50    984:Malamute                        :         > connected
+D: 15-06-26 08:10:51    983:Malamute                        : connected:
+D: 15-06-26 08:10:51    983:Malamute                        :     expired
+D: 15-06-26 08:10:51    983:Malamute                        :         $ deregister the client
+D: 15-06-26 08:10:51    983:Malamute                        :         $ allow time to settle
+D: 15-06-26 08:10:51    983:Malamute                        :         > settling
+D: 15-06-26 08:10:51    984:Malamute                        : connected:
+D: 15-06-26 08:10:51    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:51    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:51    984:Malamute                        :         > connected
+D: 15-06-26 08:10:51    984:Malamute                        : connected:
+D: 15-06-26 08:10:51    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:51    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:51    984:Malamute                        :         > connected
+D: 15-06-26 08:10:51    983:Malamute                        : settling:
+D: 15-06-26 08:10:51    983:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:51    983:Malamute                        :         > settling
+D: 15-06-26 08:10:51    984:Malamute                        : connected:
+D: 15-06-26 08:10:51    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:51    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:51    984:Malamute                        :         > connected
+D: 15-06-26 08:10:52    984:Malamute                        : connected:
+D: 15-06-26 08:10:52    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:52    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:52    984:Malamute                        :         > connected
+D: 15-06-26 08:10:52    984:Malamute                        : connected:
+D: 15-06-26 08:10:52    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:52    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:52    984:Malamute                        :         > connected
+D: 15-06-26 08:10:52    983:Malamute                        : settling:
+D: 15-06-26 08:10:52    983:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:52    983:Malamute                        :         > settling
+D: 15-06-26 08:10:52    984:Malamute                        : connected:
+D: 15-06-26 08:10:52    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:52    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:52    984:Malamute                        :         > connected
+D: 15-06-26 08:10:53    984:Malamute                        : connected:
+D: 15-06-26 08:10:53    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:53    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:53    984:Malamute                        :         > connected
+D: 15-06-26 08:10:53    984:Malamute                        : connected:
+D: 15-06-26 08:10:53    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:53    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:53    984:Malamute                        :         > connected
+D: 15-06-26 08:10:53    984:Malamute                        : connected:
+D: 15-06-26 08:10:53    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:53    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:53    984:Malamute                        :         > connected
+D: 15-06-26 08:10:54    984:Malamute                        : connected:
+D: 15-06-26 08:10:54    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:54    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:54    984:Malamute                        :         > connected
+D: 15-06-26 08:10:54    984:Malamute                        : connected:
+D: 15-06-26 08:10:54    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:54    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:54    984:Malamute                        :         > connected
+D: 15-06-26 08:10:54    984:Malamute                        : connected:
+D: 15-06-26 08:10:54    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:54    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:54    984:Malamute                        :         > connected
+D: 15-06-26 08:10:55    984:Malamute                        : connected:
+D: 15-06-26 08:10:55    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:55    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:55    984:Malamute                        :         > connected
+D: 15-06-26 08:10:55    984:Malamute                        : connected:
+D: 15-06-26 08:10:55    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:55    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:55    984:Malamute                        :         > connected
+D: 15-06-26 08:10:55    984:Malamute                        : connected:
+D: 15-06-26 08:10:55    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:55    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:55    984:Malamute                        :         > connected
+D: 15-06-26 08:10:56    984:Malamute                        : connected:
+D: 15-06-26 08:10:56    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:56    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:56    984:Malamute                        :         > connected
+D: 15-06-26 08:10:56    984:Malamute                        : connected:
+D: 15-06-26 08:10:56    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:56    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:56    984:Malamute                        :         > connected
+D: 15-06-26 08:10:56    984:Malamute                        : connected:
+D: 15-06-26 08:10:56    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:56    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:56    984:Malamute                        :         > connected
+D: 15-06-26 08:10:57    984:Malamute                        : connected:
+D: 15-06-26 08:10:57    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:57    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:57    984:Malamute                        :         > connected
+D: 15-06-26 08:10:57    984:Malamute                        : connected:
+D: 15-06-26 08:10:57    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:57    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:57    984:Malamute                        :         > connected
+D: 15-06-26 08:10:57    984:Malamute                        : connected:
+D: 15-06-26 08:10:57    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:57    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:57    984:Malamute                        :         > connected
+D: 15-06-26 08:10:58    984:Malamute                        : connected:
+D: 15-06-26 08:10:58    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:58    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:58    984:Malamute                        :         > connected
+D: 15-06-26 08:10:58    984:Malamute                        : connected:
+D: 15-06-26 08:10:58    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:58    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:58    984:Malamute                        :         > connected
+D: 15-06-26 08:10:58    984:Malamute                        : connected:
+D: 15-06-26 08:10:58    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:58    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:58    984:Malamute                        :         > connected
+D: 15-06-26 08:10:59    984:Malamute                        : connected:
+D: 15-06-26 08:10:59    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:59    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:59    984:Malamute                        :         > connected
+D: 15-06-26 08:10:59    984:Malamute                        : connected:
+D: 15-06-26 08:10:59    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:10:59    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:10:59    984:Malamute                        :         > connected
+D: 15-06-26 08:10:59    984:Malamute                        : connected:
+D: 15-06-26 08:10:59    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:10:59    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:10:59    984:Malamute                        :         > connected
+D: 15-06-26 08:11:00    984:Malamute                        : connected:
+D: 15-06-26 08:11:00    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:00    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:00    984:Malamute                        :         > connected
+D: 15-06-26 08:11:00    984:Malamute                        : connected:
+D: 15-06-26 08:11:00    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:00    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:00    984:Malamute                        :         > connected
+D: 15-06-26 08:11:00    984:Malamute                        : connected:
+D: 15-06-26 08:11:00    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:00    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:00    984:Malamute                        :         > connected
+D: 15-06-26 08:11:01    984:Malamute                        : connected:
+D: 15-06-26 08:11:01    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:01    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:01    984:Malamute                        :         > connected
+D: 15-06-26 08:11:01    984:Malamute                        : connected:
+D: 15-06-26 08:11:01    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:01    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:01    984:Malamute                        :         > connected
+D: 15-06-26 08:11:01    984:Malamute                        : connected:
+D: 15-06-26 08:11:01    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:01    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:01    984:Malamute                        :         > connected
+D: 15-06-26 08:11:02    984:Malamute                        : connected:
+D: 15-06-26 08:11:02    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:02    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:02    984:Malamute                        :         > connected
+D: 15-06-26 08:11:02    984:Malamute                        : connected:
+D: 15-06-26 08:11:02    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:02    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:02    984:Malamute                        :         > connected
+D: 15-06-26 08:11:02    984:Malamute                        : connected:
+D: 15-06-26 08:11:02    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:02    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:02    984:Malamute                        :         > connected
+D: 15-06-26 08:11:03    984:Malamute                        : connected:
+D: 15-06-26 08:11:03    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:03    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:03    984:Malamute                        :         > connected
+D: 15-06-26 08:11:03    984:Malamute                        : connected:
+D: 15-06-26 08:11:03    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:03    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:03    984:Malamute                        :         > connected
+D: 15-06-26 08:11:03    984:Malamute                        : connected:
+D: 15-06-26 08:11:03    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:03    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:03    984:Malamute                        :         > connected
+D: 15-06-26 08:11:04    984:Malamute                        : connected:
+D: 15-06-26 08:11:04    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:04    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:04    984:Malamute                        :         > connected
+D: 15-06-26 08:11:04    984:Malamute                        : connected:
+D: 15-06-26 08:11:04    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:04    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:04    984:Malamute                        :         > connected
+D: 15-06-26 08:11:04    984:Malamute                        : connected:
+D: 15-06-26 08:11:04    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:04    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:04    984:Malamute                        :         > connected
+D: 15-06-26 08:11:05    984:Malamute                        : connected:
+D: 15-06-26 08:11:05    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:05    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:05    984:Malamute                        :         > connected
+D: 15-06-26 08:11:05    984:Malamute                        : connected:
+D: 15-06-26 08:11:05    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:05    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:05    984:Malamute                        :         > connected
+D: 15-06-26 08:11:05    984:Malamute                        : connected:
+D: 15-06-26 08:11:05    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:05    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:05    984:Malamute                        :         > connected
+D: 15-06-26 08:11:06    984:Malamute                        : connected:
+D: 15-06-26 08:11:06    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:06    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:06    984:Malamute                        :         > connected
+D: 15-06-26 08:11:06    984:Malamute                        : connected:
+D: 15-06-26 08:11:06    984:Malamute                        :     STREAM_SEND
+D: 15-06-26 08:11:06    984:Malamute                        :         $ write message to stream
+D: 15-06-26 08:11:06    984:Malamute                        :         > connected
+D: 15-06-26 08:11:06    984:Malamute                        : connected:
+D: 15-06-26 08:11:06    984:Malamute                        :     CONNECTION_PING
+D: 15-06-26 08:11:06    984:Malamute                        :         $ send CONNECTION_PONG
+D: 15-06-26 08:11:06    984:Malamute                        :         > connected
+interrupted
+I: 15-06-26 08:11:10 zauth: API command=$TERM

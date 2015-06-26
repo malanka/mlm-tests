@@ -1,0 +1,174 @@
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:        API command=CONNECT
+D: (test-agent1) 15-06-26 08:10:37 mlm_client: start:
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:        connect
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ connect to server endpoint
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ set client address
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ use connect timeout
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ send CONNECTION_OPEN
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            > connecting
+D: (test-agent1) 15-06-26 08:10:37 mlm_client: connecting:
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:        OK
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ signal success
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ client is connected
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:        API command=SET CONSUMER
+D: (test-agent1) 15-06-26 08:10:37 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:        set_consumer
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ prepare stream read command
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ send STREAM_READ
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            > confirming
+D: (test-agent1) 15-06-26 08:10:37 mlm_client: confirming:
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:        OK
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            $ signal success
+D: (test-agent1) 15-06-26 08:10:37 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:38 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:            $ send CONNECTION_PING
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:38 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:        CONNECTION_PONG
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:            $ client is connected
+D: (test-agent1) 15-06-26 08:10:38 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:39 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:            $ send CONNECTION_PING
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:39 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:        CONNECTION_PONG
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:            $ client is connected
+D: (test-agent1) 15-06-26 08:10:39 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:40 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:            $ send CONNECTION_PING
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:40 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:        CONNECTION_PONG
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:            $ client is connected
+D: (test-agent1) 15-06-26 08:10:40 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:41 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            $ send CONNECTION_PING
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:41 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:        CONNECTION_PONG
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            $ client is connected
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:41 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:41 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:41 ########## topic = from:test-agent-producer1 #0
+D: (test-agent1) 15-06-26 08:10:42 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:42 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:42 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:42 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:42 ########## topic = from:test-agent-producer1 #1
+D: (test-agent1) 15-06-26 08:10:42 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:42 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:42 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:42 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:42 ########## topic = from:test-agent-producer1 #2
+D: (test-agent1) 15-06-26 08:10:43 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:43 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:43 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:43 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:43 ########## topic = from:test-agent-producer1 #3
+D: (test-agent1) 15-06-26 08:10:43 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:43 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:43 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:43 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:43 ########## topic = from:test-agent-producer1 #4
+D: (test-agent1) 15-06-26 08:10:44 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:44 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:44 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:44 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:44 ########## topic = from:test-agent-producer1 #5
+D: (test-agent1) 15-06-26 08:10:44 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:44 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:44 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:44 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:44 ########## topic = from:test-agent-producer1 #6
+D: (test-agent1) 15-06-26 08:10:45 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:45 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:45 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:45 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:45 ########## topic = from:test-agent-producer1 #7
+D: (test-agent1) 15-06-26 08:10:45 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:45 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:45 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:45 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:45 ########## topic = from:test-agent-producer1 #8
+D: (test-agent1) 15-06-26 08:10:46 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:46 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:46 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:46 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:46 ########## topic = from:test-agent-producer1 #9
+D: (test-agent1) 15-06-26 08:10:46 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:46 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:46 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:46 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:46 ########## topic = from:test-agent-producer1 #10
+D: (test-agent1) 15-06-26 08:10:47 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:47 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:47 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:47 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:47 ########## topic = from:test-agent-producer1 #11
+D: (test-agent1) 15-06-26 08:10:47 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:47 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:47 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:47 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:47 ########## topic = from:test-agent-producer1 #12
+D: (test-agent1) 15-06-26 08:10:48 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:48 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:48 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:48 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:48 ########## topic = from:test-agent-producer1 #13
+D: (test-agent1) 15-06-26 08:10:48 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:48 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:48 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:48 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:48 ########## topic = from:test-agent-producer1 #14
+D: (test-agent1) 15-06-26 08:10:49 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:49 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:49 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:49 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:49 ########## topic = from:test-agent-producer1 #15
+D: (test-agent1) 15-06-26 08:10:49 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:49 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:49 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:49 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:49 ########## topic = from:test-agent-producer1 #16
+D: (test-agent1) 15-06-26 08:10:50 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:50 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:50 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:50 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:50 ########## topic = from:test-agent-producer1 #17
+D: (test-agent1) 15-06-26 08:10:50 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:50 mlm_client:        STREAM_DELIVER
+D: (test-agent1) 15-06-26 08:10:50 mlm_client:            $ pass stream message to app
+D: (test-agent1) 15-06-26 08:10:50 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:50 ########## topic = from:test-agent-producer1 #18
+D: (test-agent1) 15-06-26 08:10:51 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:51 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:51 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:51 mlm_client:            $ send CONNECTION_PING
+D: (test-agent1) 15-06-26 08:10:51 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:52 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:52 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:52 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:52 mlm_client:            $ send CONNECTION_PING
+D: (test-agent1) 15-06-26 08:10:52 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:10:53 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:53 mlm_client:        expired
+D: (test-agent1) 15-06-26 08:10:53 mlm_client:            $ check if connection is dead
+D: (test-agent1) 15-06-26 08:10:53 mlm_client:            ! exception
+D: (test-agent1) 15-06-26 08:10:53 mlm_client: connected:
+D: (test-agent1) 15-06-26 08:10:53 mlm_client:        exception
+D: (test-agent1) 15-06-26 08:10:53 mlm_client:            $ exception
+D: (test-agent1) 15-06-26 08:10:53 mlm_client:            > connected
+D: (test-agent1) 15-06-26 08:11:09 ########## total_count = 19
+
