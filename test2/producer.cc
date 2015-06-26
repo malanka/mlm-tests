@@ -7,11 +7,14 @@
 
 static
 int
-s_stoi(const std::string& inp, int def)
+s_stoi(const char* inp, int def)
 {
+    if (!inp)
+        return def;
+
     try
     {
-        return std::stoi(::getenv("SLEEP"));
+        return std::stoi(inp);
     }
     catch (const std::exception& e)
     {}
