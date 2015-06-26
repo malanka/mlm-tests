@@ -20,6 +20,10 @@ s_stoi(const std::string& inp, int def)
 }
 
 int main (int argc, char *argv []) {
+    zsys_init();
+    zsys_set_logident("producer");
+    zsys_set_logstream(stderr);
+    mlm_client_verbose = 1;
     
     const char *addr = "ipc://@/malamute";
     std::string agent_name = "test-agent-producer";
