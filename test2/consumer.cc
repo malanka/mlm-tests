@@ -48,16 +48,16 @@ int main (int argc, char *argv []) {
         zsys_debug ("########## topic = %s", topic.c_str());
         if ( WORKAROUND )
         {
+            // from time to time send a mailbox messege to myself :)
             if ( count % 5 == 0 )
             {
                 std::string send_topic = "I_AM_ALIVE " + std::to_string (count);
                 zmsg_t *msg_to_send = zmsg_new();
-                mlm_client_send(client, send_topic.c_str(), &msg_to_send);
+                mlm_client_sendto (client, agent_name.c_str(), send_topic.c_str(), NULL, 1000, &msg_to_send);
                 zsys_debug ("########## send %s", send_topic.c_str());
             }
         }
     }
-
     zsys_debug ("########## total_count = %lu\n" , count);
     mlm_client_destroy (&client);
     return 0;
