@@ -7,14 +7,16 @@
 int main (int argc, char *argv []) {
 
     zsys_init();
-    zsys_set_logident("consumer");
     zsys_set_logstream(stderr);
+    mlm_client_verbose = 1;
     
     const char *addr = "ipc://@/malamute";
     std::string agent_name = "test-agent";
 
     if ( argc > 1 )
         agent_name = agent_name + std::string(argv[1]); 
+
+    zsys_set_logident(agent_name.c_str());
 
     mlm_client_t *client = mlm_client_new();
 
@@ -36,10 +38,10 @@ int main (int argc, char *argv []) {
             continue;
         count++;
         std::string topic = mlm_client_subject (client);
-        zsys_debug ("topic = %s", topic.c_str());
+        zsys_debug ("########## topic = %s", topic.c_str());
     }
 
-    zsys_debug ("total_count = %lu\n" , count);
+    zsys_debug ("########## total_count = %lu\n" , count);
     mlm_client_destroy (&client);
     return 0;
 }

@@ -1,0 +1,303 @@
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        API command=CONNECT
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client: start:
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        connect
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ connect to server endpoint
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ set client address
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ use connect timeout
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ send CONNECTION_OPEN
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            > connecting
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client: connecting:
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        OK
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ signal success
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        API command=SET PRODUCER
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        set_producer
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ prepare stream write command
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ send STREAM_WRITE
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            > confirming
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client: confirming:
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        OK
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            $ signal success
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:41 ########## usleep(500000)
+D: (test-agent-producer1) 15-06-26 08:10:41 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:42 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:43 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:44 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:45 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:46 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:47 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:48 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:49 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:50 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:51 ########## count is 20
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:51 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:52 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:53 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:54 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:55 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:56 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:57 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:58 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:10:59 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:00 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:01 ########## count is 40
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:01 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:02 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:03 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:04 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:05 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:        API message=STREAM SEND
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:        expired
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:            $ check if connection is dead
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:            $ send CONNECTION_PING
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client: connected:
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:        CONNECTION_PONG
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:            $ client is connected
+D: (test-agent-producer1) 15-06-26 08:11:06 mlm_client:            > connected
+D: (test-agent-producer1) 15-06-26 08:11:06 ########## total_count = 51
